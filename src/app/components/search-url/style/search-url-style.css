@@ -1,0 +1,13 @@
+.search-template-align-center {
+  width: 50%;
+  margin: 0px auto 0px auto
+}
+.search-template-top-buffer{
+  margin-top:15px;
+}
+@media only screen and (max-width: 500px) {
+    .search-template-align-center {
+      width: 100% !important;
+      margin: 0px auto 0px auto
+    }  
+}

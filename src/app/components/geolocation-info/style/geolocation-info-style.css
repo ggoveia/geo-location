@@ -1,0 +1,37 @@
+.geolocation-align-center {
+  width: 60%;
+  margin: 0px auto 0px auto
+}
+
+.geolocation-table {
+  border-top: 1px solid #7EA89B;
+}
+
+.geolocation-table>.col-md-12 {
+  border-right: 1px solid #7EA89B;
+  border-left: 1px solid #7EA89B;
+  border-bottom: 1px solid #7EA89B;
+}
+
+.geolocation-info-odd {
+  background-color: #e3ecea;
+}
+
+.geolocation-padding-15 {
+  padding: 15px;
+}
+
+.geolocation-top-buffer {
+  margin-top: 15px;
+}
+
+.geolocation-row-name{
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    .geolocation-align-center {
+      width: 100%;
+      margin: 0px auto 0px auto
+    }  
+}

@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="search-template-align-center">
+      <div class="col-md-6">
+        <input type="text" class="form-control" ng-model="$ctrl.url" required/>
+      </div>
+      <div class="col-md-6">
+        <location-button from="{{$ctrl.url}}" ng-click="$ctrl.searchLocationByUrl()" button-name="Locate"></location-button>
+        <location-button from="me" ng-click="$ctrl.searchMyLocation()" button-name="My Location"></location-button>
+        <reset-button description="Reset" ng-click="$ctrl.resetLocation()"></reset-button>
+      </div>
+      <div class="col-md-12 search-template-top-buffer">
+        <div class="alert alert-danger" ng-if="$ctrl.error != ''">
+          <strong>Url not valid!</strong> "{{$ctrl.error}}"
+        </div>
+      </div>
+    </div>
+  </div>

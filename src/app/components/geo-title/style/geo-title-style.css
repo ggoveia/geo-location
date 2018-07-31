@@ -1,0 +1,11 @@
+.title {
+  border-bottom: 3px solid #7ea89b;
+  padding: 10px 10px 10px 5px;
+  text-align: center;
+  background-color: #c5d8d2;
+  margin-bottom: 10px;
+  font-weight: bold!important;
+  color: #46695e;
+  font-family: roboto;
+  font-size: x-large;
+}

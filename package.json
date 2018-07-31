@@ -1,0 +1,41 @@
+{
+  "name": "ui-challenge",
+  "version": "1.0.0",
+  "description": "* As a curious web surfer, I want to be able to locate both me and any website on a map.\r * I sometimes use a desktop, sometimes a tablet and sometimes a cell phone, so I need a responsive web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/giulianeramos/ui-challenge.git"
+  },
+  "author": "Giuliane Ramos",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/giulianeramos/ui-challenge#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "ngmap": "^1.18.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.4",
+    "connect": "^3.6.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.2.1",
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "jasmine-data_driven_tests": "^1.0.0",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "run-sequence": "^1.2.2",
+    "serve-static": "^1.12.1"
+  }
+}
